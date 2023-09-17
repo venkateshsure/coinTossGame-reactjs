@@ -1,0 +1,41 @@
+/* Write your CSS here */
+
+.coin-toss-game {
+  background-image: linear-gradient(#f9d423, #e2a139);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.coin-toss {
+  width: 50%;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg-con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-con {
+  width: 200px;
+  height: 200px;
+}
+
+.bottom-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  cursor: pointer;
+}
